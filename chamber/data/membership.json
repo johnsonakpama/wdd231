@@ -1,0 +1,74 @@
+{
+    "bussinessdata": [
+        {
+            "name": "Deskmaking Venture",
+            "address": "#13 old bukuru way",
+            "state": "Plateau state",
+            "country": "Nigeria",
+            "phone": "+234-801-324-897",
+            "membership": "Gold membership",
+            "website": "https://www.Deskmaking.com",
+            "imageurl": "https://jos-wasec-123sss-resd.jpg"
+        },
+        {
+            "name": "All for  Goood Ltd",
+            "address": "#43 kumasi express way Ghana",
+            "state": "Ahafo Region",
+            "country": "Ghana",
+            "phone": "+231-801-324-897",
+            "membership": "NP membership",
+            "website": "https://www.allforgood.com",
+            "imageurl": "https://jos-wasec-123sss-resd.jpg"
+        },
+        {
+            "name": "Nothing Do venture",
+            "address": "#18 behind Total filling station Ewe",
+            "state": "Kara",
+            "country": "Togo",
+            "phone": "+228-423-657-675",
+            "membership": "Bronze membership",
+            "website": "https://www,nothingdoven.com",
+            "imageurl": "https://jos-wasec-123sss-resd.jpg"
+        },
+        {
+            "name": "Emeka & Sons Ltd",
+            "address": "#53 New market junction Oshodi",
+            "state": "Lagos",
+            "country": "Nigeria",
+            "phone": "+234-701-4243-3456",
+            "membership": "Silver membership",
+            "website": "https://www.emakasonsluv.com",
+            "imageurl": "https://jos-wasec-123sss-resd.jpg"
+        },
+        {
+            "name": "Rest Poultry Farm",
+            "address": "#10 Barkin-ladi Jos",
+            "state": "Plateau state",
+            "country": "Nigeria",
+            "phone": "+234-805-4321-7654",
+            "membership": "Gold membership",
+            "website": "https://www.restpoultryfarm.com",
+            "imageurl": "https://jos-wasec-123sss-resd.jpg"
+        },
+        {
+            "name": "Godiya Venture",
+            "address": "#13 old bukuru way",
+            "state": "Plateau state",
+            "country": "Nigeria",
+            "phone": "+234-701-4943-3056",
+            "membership": "NP membership",
+            "website": "https://www.godiyaven.com",
+            "imageurl": "https://jos-wasec-123sss-resd.jpg"
+        },
+        {
+            "name": "Sokowunci Electrical Service",
+            "address": "#35 Airport Road Lagos",
+            "state": "Lagos",
+            "country": "Nigeria",
+            "phone": "+234-701-4243-3456",
+            "membership":"Silver membership",
+            "website":"https://www,sokoelectricalservice.com",
+            "imageurl":"https://jos-wasec-123sss-resd.jpg"
+        }
+    ]
+}

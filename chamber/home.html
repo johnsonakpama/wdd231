@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All in Chamber of Commerce-site</title>
+    <meta name="description" content="WDD 231-Web Fundamentals, Johnson Majiyebo Akpama, project Home Page">
+    <meta name="author" content="Johnson M. Akpama">
+    <link rel="icon" href="Favicon1.jpeg" type="images/x-icon">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/join.css">
+</head>
+<body>
+    <header>
+        <h1 contenteditable> All in Chamber of Commerce-Site</h1>
+        <img class="logo" src="images/chamber-logo.webp" alt="the site logo" width="250" height="180">   
+    </header>
+    <nav>
+        <ul class="navigator">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="contact-us.html">Contact-Us</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="hero-box">
+            <picture>
+                <source srcset="images/grains.jpeg" media="(min-width: 500px)">
+                <source srcset="images/grains.jpeg" media="(min-width: 1000px)">
+                <img src="images/grains.jpeg" alt="Africal map" width="1500" height="750">
+            </picture> 
+        </section>
+        <h2>Our Mission</h2>
+        <p>Home chamber of commerce act as regional economic,<strong> providing world class service</strong> and supporting the developmen of <strong>vibrant private sector</strong> we promote business through<strong> member service</strong> and provide<strong> balance economic properity</strong></p>
+        <h2>Audience</h2>
+        <p>There will be several targeted audience for this site we will mainly focus on importer and exporter of Agric product and individual and organization who will be intrested in joining us</p>
+        <section class="News">
+            <h2>News Release</h2>
+            <ul>
+                <li>A decapitated banana plant is almost useless, an inconvenience to the farmer who must then uproot it and lay it dismembered part as mulch. But can such stems somehow be return to life ? yes, according to a Uganda company that's buying banana stems in a business that turn fiber in attractive handicrafts. the idea is innovative as well as sustainable in the East Africa country, Uganda has the highest banana consumption rate in the world and in Africas top producer of the crop.</li>
+                <li>Nigeria is a country that has been dependent of oil for much of its 64 years as an independent nation. However, it is by and large an agricultural nation. In fact, there are many who would say that oil has taken much focus away from agriculture.</li>
+            </ul>
+        </section>
+        <section class="event">
+            <h2>Event</h2>
+            <ul>
+                <li>Pretium viverra suspendisse potenti nullam ac tortor vitae purus.</li>
+                <li> Nunc vel risus commodo viverra maecenas accumsan. Mauris pharetra et ultrices neque ornare aenean euismod.</li>
+                <li>Sed euismod nisi porta lorem mollis aliquam ut porttitor leo. Nec feugiat in fermentum posuere urna nec tincidunt praesent semper.</li>
+            </ul>
+        </section>
+        <section class="weather">
+        <h2>Weather</h2>
+        <div id="weather-div">
+            <img src="images/weather-icon.jpeg" alt="" id="weather-icon"/>
+            <h4><span class="temperature"></span>&#8451;</h4>
+            <p class="weather-type"></p>
+            <p>Wind Speed: <span class="wind-speed"></span>km/h</p>
+            <p>Wind Chill: <span class="wind-chill"></span>
+        </div>    
+    </section>
+    <section class="join">
+            <h2>Join</h2>
+            <p>We invite you to join us every tuesday by 8:00 pm (WAT) were you have opportunity of meeting great nen who have make mark in business sector</p>
+            <button class="join-button">Join Us</button>
+    </section>
+    <section class="spotlight1">
+            <h2>spotlight 1</h2>
+            <figure>
+            <img src="images/calabar.jpg" alt="calabar carnival jmage" width="500" height="250">
+            </figure>
+            <p>Calabar carnival is an annual activies to further drive and prove the canival, the government is already prepearing ground to host the Calabar Fashion Week in the weekend of November 2024 as part of effort at repositing the state for sustainable Socio-economic growths and development </p>
+    </section>
+    <section class="spotlight2">
+            <h2>spotlight 2</h2>
+            <figure>
+            <img src="images/cocoa-farming.jpg" alt="description" width="500" height="250">
+            </figure>
+            <p>The benefit of involing in international trade is that investment in a country often inproves the standard of living for that country people.</p>
+    </section>
+    <section class="spotlight3">
+    <h2>spotlight 3</h2>
+            <figure>
+             <img src="images/nigeria-fabric.jpg" alt="nigeria local fabric in different colours" width="500" height="250">
+            </figure>
+            <p>The legacy of Nigeria Texflies have a deep-rooted history, with likes Aso-Ike, Adire, and Kente showcasing intricate patterns, colours, and craftsmanship</p>
+     </section>
+    </main>
+    <div class="contact">
+        <h3>Contact information</h3>
+        <p><span>&#10147;</span>All in Chamber of Commerce-site | Plateau | Nigerian | 18930-222</p>
+        <p><span>&#9743;</span>(+234)802-987-744</p>
+        <p><span>&#9993;</span>contact@jmachamber.com</p>
+    </div>
+    <div class="base-footer">
+        <div id="signature">&copy;<span id="current-year"></span>All in Chamber of Commerce-Site 💥 Johnson Akpama 💥 WDD 231 Chamer of Commerce project</div>
+    </div>
+    <div class="lastmodified">LastModified:
+        <p id="full"></p>
+        <p id="date"></p>
+        <P id="year"></P>
+        <p id="month"></p>
+        <p id="day"></p>
+        <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
+    </div>
+ </footer>
+ <script defer src="scripts/windfall"></script>
+ <script defer src="scripts/getdate.js"></script>
+ <script defer src="scripts/numbervisist.js"></script>
+ <script defer src="scripts/togglemenu.js"></script>
+    
+</body>
+</html>

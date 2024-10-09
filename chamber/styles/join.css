@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&family=Rock+Salt&display=swap');
+
+:root{
+    /* change the value below to your color from your palette */
+
+    --primary-color: #6F1D1B;
+    --secondary-color: #BB9457;
+    --accent1-color: #432818;
+    --accent2-color: #99582A;
+
+     /* change the values below to your chosen font(s) */
+     --heading-font: Rock Salt, sans-serif;
+     --paragraph-font: 'Roboto', sans-serif;
+   
+     /* these colors below should be chosen from among your palette colors above */
+     --headline-color-on-white: #6F1D1B;  /* headlines on a white background */ 
+     --headline-color-on-color: #BB9457; /* headlines on a colored background */ 
+     --paragraph-color: #000000; /* paragraph text on a white background */ 
+     --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+     --paragraph-background-color: #432818;
+     --nav-link-color: #6F1D1B;
+     --nav-background-color: #432818;
+     --nav-hover-link-color: white;
+     --nav-hover-background-color: #BB9457;
+}
+
+.body {
+    width: max-content;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    margin: 0 auto;
+    padding: 0 auto;
+
+}
+
+
+header {
+    background-color: #BB9457;
+    font-family: 'Roboto';
+    color: #000;
+    padding: 2rem;
+    grid-column: 1 / 4;
+}
+
+h1 {
+    text-align: center;
+}
+h2 {
+    font-size: bold;
+    text-align: center;
+    background-color: #BB9457;
+    color: #000;
+    padding: 5rem 1rem 0;
+}
+
+p {
+    font-family: sans-serif;
+}
+
+.mordern a {
+    flex: 1 1 100%;
+}
+
+.logo {
+    height: 100%;
+    padding: 1rem;
+    margin-top: 1rem;
+    grid-column: 1;
+}
+
+.navigator {
+    display: flex;
+    color: #000;
+    padding: 2rem;
+    list-style: none;
+    background-color: #BB9457;
+    align-items: center;
+    grid-column: 1/2;
+    justify-content: space-between;
+
+}
+
+.navigator li {
+    flex: 1 1 auto;
+}
+
+.navigator a:hover {
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-color: #BB9457;
+    color: #000;
+    padding: 1rem;
+}
+
+footer{
+    background-color: #BB9457;
+    color: #eee;
+    padding: 2rem;
+    text-align: center;
+    grid-column: 1 / 4;
+}
+.hero-button, .join-button {
+    position: absolute;
+    text-decoration: none;
+    z-index: 1;
+    right: 1.5rem;
+    bottom: 1rem;
+    background-color: #BB9457;
+    color: #000;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 0.5rem;
+    box-shadow: #6F1D1B 0.1em 0.1em 0.3em;
+    border: #6F1D1B;
+}
+
+.hero-button:hover, .join-button:hover {
+    background-color: #BB9457;
+    color: #eee;
+    transform: scale(1.2);
+    transition: all 0.3s ease-in;
+}
+
+.hero-content {
+    display: none;
+}
+
+.news {
+    padding: 1rem;
+    position: relative;
+}
+
+.weather {
+    padding: 1rem;
+    position: relative;
+    text-align: center;
+    padding-left: 2rem;
+}
+
+#weather-div {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	text-align: center;
+}
+
+#weather-icon {
+    display: flex;
+    height: 100%;
+}
+
+.weather h4 {
+	font-size: 2em;
+}
+
+.weather-type {
+	font-size: 1.5rem;
+    background-color: #BB9457;
+    border: #6F1D1B 1px solid;
+    padding: 0.5rem;
+}
+.events {
+    padding: 1rem;
+    position: relative;
+}
+
+.join {
+    padding: 1rem;
+    position: relative;
+}
+
+.spotlights {
+    background-color: #BB9457;
+}
+
+.spotlights div {
+    padding: 1rem;
+    border: #6F1D1B solid 1px;
+    margin: 1rem;
+    word-wrap: break-word;
+    text-align: center;
+    background-color: #9BA17B;
+}
+
+.spotlights img {
+    width: 100%;
+    height: auto;
+}
+
+#third-spotlight {
+    display: none;
+}
+
+figure {
+    display: block;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+
+#hamburger-button span:nth-child(1) { display: block;}
+#hamburger-button span:nth-child(2) { display: none;}
+
+#hamburger-button.open span:nth-child(1) { display: none;}
+#hamburger-button.open span:nth-child(2) { display: block;}
+
+
+.contact {
+    grid-column: 2;
+    grid-row: 2;
+    border: none;
+    padding: 1rem;
+    background-color: #BB9457;
+}
+
+.base-footer {
+    background-color: #BB9457;
+    grid-column: 1/4;
+    grid-row: 3;
+    padding: 1rem;
+    text-decoration: none;
+    text-align: center;
+    line-height: 1.1;
+}
+
+.lastmodified {
+    color: #000;
+    background-color: #BB9457;
+    padding: 1rem;
+    text-align: center;
+}
+
+.number-visits {
+    grid-column: 1 / 3;
+    background-color: #BB9457;
+    padding: 1rem;
+    text-align: center;
+} 

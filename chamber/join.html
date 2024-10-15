@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All in Chamber of Commerce-Site</title>
+    <meta name="description" content="WDD 231-Web Fronted Development 1, Johnson Majiyebo Akpama, project Home Page">
+    <meta name="author" content="Johnson M. Akpama">
+    <link rel="icon" href="Favicon1.jpeg" type="images/x-icon">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/form.css">
+</head>
+<body>
+    <header>
+        <div class="banner" direction="right">🪲 All in Chamber of Commerce-Site<br>Contact us for any of your membership!<br>Make your request now!</div>
+        <h1>Contact Us Now!</h1>
+    </header>
+        <form method="get" action="thanks.html" class="container">
+        <h2>Apply Now</h2>
+        <fieldset>
+            <legend>Application Form</legend>
+            <label for="firstName">First Name*</label>
+            <input name="firstName" id="firstName" type="text" autocomplete="given-name" required>
+            <label for="lastName">Last Name*</label>
+            <input name="lastName" id="lastName" type="text" autocomplete="family-name" required>
+            <label for="organizational title">Organizational Title</label>
+            <input name="organizational title" id="organizational title" type="text" autocomplete="organizational title" pattern="[a-zA-Z\s\-]{7,}">
+            <label for="email">Email*</label>
+            <input name="email" id="email" type="email" placeholder="someone@gmail.com" autocomplete="email" required>
+            <label for="phoneNumber">Phone Number*</label
+                >
+            <input name="phoneNumber" id="phoneNumber" type="tel" autocomplete="phoneNumber" required>
+            <label for="organizationName">Organization Name*</label>
+            <input name="organizationName" id="organizationName" type="text" autocomplete="organizationName" required>
+            <fieldset>
+                <legend>Choose Membership level</legend>
+                <label for="NP Membership">NP Membership</label>
+                <input type="radio" name="Membership-level" value="NP Membership">
+                <label for="broneMembership">Bronze Membership</label>
+                <input type="radio" name="Membership-level" value="broneMembership">
+                <label for="silverMembership">Silver Membership</label>
+                <input type="radio" name="Membership-level" value="silverMembership">
+                <label for="goldMembership">Gold Membership</label>
+                <input type="radio" name="Membership-level" value="goldMembership">     
+            </fieldset>
+            <fieldset>
+                <legend>Membership Interest (Required)</legend>
+                <label><textarea rows="5" class="input" name="product review"></textarea></label>
+            </fieldset>
+            <input type="hidden" id="last-loaded" name="time-now" value="">
+            <input type="submit" value="Send my application" class="submitBtn">
+            <h3>Membership Level</h3>
+            <label class="card 1">
+            <button class="learnMore">Learn more</button>
+            <dialog class="modal">
+                <p>Non-profit Membership</p>
+                <p>Non-profit Membership: No fee and linited benefit</p>
+                <button class="close-button">Close modal</button>
+                <p>Welcome! for more requiring contact our help line</p>
+            </dialog>
+            </label>
+            <label class="card 2">
+            <button class="learnMore">Learn more</button>
+            <dialog class="modal">
+                <p>Bronze Membership</p>
+                <P>Bronze Membership: Access to training and discounts on event</P>
+                <button class="close-button">Close modal</button>
+                <p>Welcome! for more inquiring contact our help line</p>
+            </dialog>
+            </label>
+            <label class="card 3">
+            <button class="learnMore">Learn more</button>
+            <dialog class="modal">
+                <p>Silver Membership</p>
+                <p>Silver Membership: All bronze benefits, plus advertising opportunities</p>
+                <button class="close-button">Close modal</button>
+                <p>Welcome! for more inquiring contact our help line</p>
+            </dialog>
+            </label>
+            <label class="card 4">
+            <button class="learnMore">Learn more</button>
+            <dialog class="modal">
+                <p>Gold Membership</p>
+                <P>Gold Membership: All silver benefits, plus priority advertising on the home page</P>
+                <button class="close-button">Close modal</button>
+                <p>Welcome! for more inquiring contact our help line</p>
+            </dialog>
+            </label>
+        </fieldset>
+        </form>
+        <footer>
+            <div class="contact">
+                <h3>Contact information</h3>
+                <p><span>&#10147;</span>All in Chamber of Commerce-site | Plateau | Nigerian | 18930-222</p>
+                <p><span>&#9743;</span>(+234)802-987-744</p>
+                <p><span>&#9993;</span>contact@jmachamber.com</p>
+            </div>
+            <div class="base-footer">
+                <div id="signature">&copy;<span id="current-year"></span>All in Chamber of Commerce-Site 💥 Johnson Akpama 💥 WDD 231 Chamer of Commerce project</div>
+            </div>
+        </footer>
+        <script defer src="scripts/form.js"></script>
+    
+</body>
+</html>

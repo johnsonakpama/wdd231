@@ -126,6 +126,21 @@ footer{
     display: none;
 }
 
+.hero-title {
+    top: 2rem;
+    left: 1rem;
+    font-weight: bold;
+    word-break: normal;
+    text-align: center;
+    color:#000;
+}
+
+.discover img {
+    width: 100%;
+    height: 505;
+}
+
+
 .news {
     padding: 1rem;
     position: relative;

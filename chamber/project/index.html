@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jboy E-Commerce Site</title>
+    <meta name="description" content="WDD 231-Web Fronted Development 1, Johnson Majiyebo Akpama, project Home Page">
+    <meta name="author" content="Johnson M. Akpama">
+    <meta property="LinkedIn-id" content="https://www.linkedin.com/in/johnsonakpama/">
+    <link rel="icon" href="f-favicon.png" type="images/x-icon">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <h1 contenteditable="Jboy E-Commerce Site">Jboy E-Commerce Site</h1>
+        <img class="loge" src="images/projectlogo.jpg" alt="Site log" width="45" height="45">
+    </header>
+    <button type="button" id="menu"></button>
+    <nav class="navigation">
+       <li><a href="index.html" title="Home" class="active">Home</a></li>
+       <li><a href="contact.html" title="contact">Contact Us</a></li>
+       <li><a href="product.html" title="History">Products</a></li>
+    </nav>
+<main>
+    <section class="hero-box">
+        <picture>
+            <source srcset="images/shopping-500.jpg" media="(min-width: 500px)">
+            <source srcset="images/shopping-1000.jpg" media="(min-width: 1000px)">
+            <img src="images/shopping.jpg" alt="online shopping pccture" width="1500" height="750">
+        </picture> 
+    </section>
+    <h2>Our Mission</h2>
+    <p>To <strong>connect people online sales</strong>and their goods deliver to them at their comfort zone</p>
+    <h2>Audience</h2>
+    <p>We aim to target internet users by running an advertisement of our goods</p>
+    <div class="wrapper">
+        <h2>Frequently Asked Question</h2>
+        <div class="faq">
+            <button class="accordion">
+                What is your coverage area?
+                <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="pannel">
+                <P>Our services cover all the part of the world</P>
+            </div>
+        </div>
+        <div class="faq">
+            <button class="accordion">
+                What are your delivery time frame?
+                <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="pannel">
+                <P>We deliver within seven (7) days</P>
+            </div>
+        </div>
+        <div class="faq">
+            <button class="accordion">
+                What tracking and communication option do  you have?
+                <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="pannel">
+                <P>We have system in place that track our delivering, and you can contact us on our help line</P>
+            </div>
+        </div>
+        <div class="faq">
+            <button class="accordion">
+                Can payment be make on delivering?
+                <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="pannel">
+                <P>Yes. we give our customer that opportunity to paid on delivering</P>
+            </div>
+        </div>
+    </div>
+
+    <section class="weather">
+        <h2>Weather</h2>
+        <div id="card">
+            <h2 id="town"></h2>
+            <img id="graphic" src="images/weather_clouds_sun_sunny_icon.svg" alt="image of weather">
+            <p id="description">Description</p>
+            <p id="temperature">Temperature</p>
+        </div>    
+    </section>
+</main>
+<footer>
+    <div class="contact">
+        <h3>Contact information</h3>
+        <p><span>&#10147;</span>Jboy E-Commerce-site | Plateau | Nigerian | 18930-222</p>
+        <p><span>&#9743;</span>(+234)802-987-744</p>
+        <p><span>&#9993;</span>contact@jmachamber.com</p>
+    </div>
+    <div class="contact">
+        <h3>Contact information</h3>
+        <p><span>&#10147;</span>Jboy E-Commerce-site | Plateau | Nigerian | 18930-222</p>
+        <p><span>&#9743;</span>(+234)802-987-744</p>
+        <p><span>&#9993;</span>contact@jmachamber.com</p>
+    </div>
+    <div class="base-footer">
+        <div id="signature">&copy;<span id="current-year"></span>Jboy E-Commerce-Site 💥 Johnson Akpama 💥 WDD 231 Chamer of Commerce project</div>
+    </div>
+</footer>
+<script defer src="scripts/faq.js"></script>
+<script defer src="scripts/toggle.js"></script>
+<script defer src="scripts/weatherapi.js"></script>
+</body>
+</html>

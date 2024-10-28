@@ -4,7 +4,7 @@ const weatherIcon = document.querySelector("#weather-icon");
 const weatherType = document.querySelector("weather-type");
 const windSpeedLocation = document.querySelector("wind-speed");
 
-const url = "https://api.openweathermap.org/data/2.5/weather?id=3467684&units=metric&appid=da8fde9fff32e9d616cd34ed921f71d5"
+const url = "https://api.openweathermap.org/data/2.5/weather?id=3467684&units=metric&appid=da8fde9fff32e9d616cd34ed921f71d5";
 
 async function apiFetch() {
   try {
@@ -53,3 +53,21 @@ function displayWindChill() {
   const windChillSpan = document.querySelector(".wind-chill");
   windChillSpan.textContent = windChill;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

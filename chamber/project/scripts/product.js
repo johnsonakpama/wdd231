@@ -1,33 +1,19 @@
-// define source and view-switch boolean
-const card = document.querySelector('#company-card');
+const card = document.querySelector('#product-card');
 
+const cards  = document.querySelector('.Our-product');
 
-// pull json data
-async function getmembersData() {
-    const response = await fetch(source);
-    const data = await response.json();
-    displayGrid(data.members);
-}
-
-// run function
-getmembersData();
-
-// define grid display
-const displayGrid = (members) => {
-    const cards = document.querySelector('div.businesses'); // select the output container element
+const displayGrid = (product) => {
+    const cards = document.querySelector('div.product'); // select the output container element
 
     members.forEach((business) => {
         // Create elements to add to the div.cards element
         let card = document.createElement("section");
         let logo = document.createElement("img");
         let name = document.createElement("h2");
-        let address = document.createElement("p");
-        let phone = document.createElement("p");
-        let website = document.createElement("p");
-        let membership = document.createElement("p");
+        let product = document.createElement("img");
     
         // Build the image logo by setting all the relevant attribute
-        logo.setAttribute("src", business.image);
+        logo.setAttribute("src", product.image);
         logo.setAttribute("alt", `${name} logo`);
         logo.setAttribute("loading", "lazy");
         logo.setAttribute("width", "180");
@@ -35,10 +21,7 @@ const displayGrid = (members) => {
         logo.classList.add("not-list");
 
         // Build the other content out to show the business information
-        name.textContent = `${business.name}`;
-        address.textContent = `${business.address}`;
-        phone.textContent = `${business.phone}`;
-        website.textContent = `${business.website}`;
+        phone.textContent = `${product.name}`;
         website.classList.add("not-list");
         membership.textContent = `${business.membership} Membership`;
         membership.classList.add("not-list");
@@ -46,10 +29,7 @@ const displayGrid = (members) => {
         // Append the section(card) with the created elements
         card.appendChild(logo);
         card.appendChild(name);
-        card.appendChild(address);
-        card.appendChild(phone);
-        card.appendChild(website);
-        card.appendChild(membership);
+        card.appendChild(products);
     
         cards.appendChild(card);
     }) // end of forEach loop

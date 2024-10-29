@@ -31,44 +31,54 @@
         </article>
         <section>
              <h2 class="parent">Products Gallary</h2>
-            <div class="container-parent">
-                <figure>
-                    <img class="product" src="images\Setmaterials.jpg" alt="different kind of building materials" loading="lazy" width="250" height="167">
-                    <figcaption>Building Materials</figcaption>
-                </figure>
-                <figure>
-                    <img class="product" src="images\cloths.jpg" alt="dress for both male and female" loading="lazy" width="250" height="167">
-                    <figcaption>Clothing</figcaption>
-                </figure>
-                <figure>
-                    <img class="product" src="images/SetMedical.jpg" alt="all kind medicsl equipment" loading="lazy" width="250" height="167">
-                    <figcaption>Medical Equipment</figcaption>
-                </figure>
-                <figure>
-                    <img class="product" src="images/Foods.jpg" alt="Foodstuffs" loading="lazy" width="250" height="167">
-                    <figcaption>Foodstuffs</figcaption>
-                </figure>
-                <figure>
-                    <img class="product" src="images/sportsequipment2.jpg" alt="sporting equipment" loading="lazy" width="250" height="167">
-                    <figcaption>Sporting Equipment</figcaption>
-                </figure>
-                <figure>
-                    <img class="product" src="images/phoneaccessary.jpg" alt="all kind of phone accessary" loading="lazy" width="250" height="167">
-                    <figcaption>Phone Accessary</figcaption>
-                </figure>
-                <figure>
-                    <img class="product" src="images/phoneset.jpg" alt="mobile phone" loading="lazy" width="250" height="167">
-                    <figcaption>Mobile Phones</figcaption>
-                </figure>
-                <figure>
-                    <img class="product" src="images/Van.jpg" alt="White Van" loading="lazy" width="250" height="167">
-                    <figcaption>Our Delivering Van</figcaption>
-                </figure>
-                <figure>
-                    <img class="product" src="images/Setgrain.jpg" alt="grains" loading="lazy" width="250" height="167">
-                    <figcaption>Grains</figcaption>
-                </figure>
-            </div>
+                <picture>
+                    <source srcset="images/Foods.jpg " loading="lazy" media="(max-width:500px)">
+                    <source srcset="images/foods.jpg " loading="lazy" media="(max-width:1000px)">
+                    <img src="images/Foods.jpg " alt="the delicious food" width="500" height="250">
+                    <p>The delicious food</p>
+                </picture>
+                <picture>
+                    <source srcset="images/Setmaterials.jpg" loading="lazy" media="(max-width:500px)">
+                    <source srcset="images/Setmaterials.jpg" loading="lazy" media="(max-width:1000px)">
+                    <img src="images/Setmaterials.jpg" alt="Different kind building materials" width="500" height="250">
+                    <p>Different kind of building materias</p>
+                </picture>
+                <picture>
+                    <source srcset="images/cloths.jpg" loading="lazy" media="(max-width:500px)">
+                    <source srcset="images/cloths.jpg" loading="lazy" media="(max-width:1000px)">
+                    <img src="images/cloths.jpg" alt="Unisex Wears" width="500" height="250">
+                    <p>Cloths</p>
+                </picture>
+                <picture>
+                    <source srcset="images/SetMedical.jpg" loading="lazy" media="(max-width:500px)">
+                    <source srcset="images/SetMedical.jpg" loading="lazy" media="(max-width:1000px)">
+                    <img src="images/SetMedical.jpg" alt="Medical equipment" width="500" height="250">
+                    <p>Medical Equipment</p>
+                </picture>
+                <picture>
+                    <source srcset="images/sportsequipment2.jpg" loading="lazy" media="(max-width:500px)">
+                    <source srcset="images/sportsequipment2.jpg" loading="lazy" media="(max-width:1000px)">
+                    <img src="images/sportsequipment2.jpg" alt="Sporting Items" width="500" height="250">
+                    <p>Sporting Items</p>
+                </picture>
+                <picture>
+                    <source srcset="images/phoneaccessary.jpg" loading="lazy" media="(max-width:500px)">
+                    <source srcset="images/phoneaccessary.jpg" loading="lazy" media="(max-width:1000px)">
+                    <img src="images/phoneaccessary.jpg" alt="Phone Accessary" width="500" height="250">
+                    <p>Phone Accessary</p>
+                </picture>
+                <picture>
+                    <source srcset="images/phoneset.jpg" loading="lazy" media="(max-width:500px)">
+                    <source srcset="images/phoneset.jpg" loading="lazy" media="(max-width:1000px)">
+                    <img src="images/phoneset.jpg" alt="Different kind of mobile phone" width="500" height="250">
+                    <p>Mobile Phone</p>
+                </picture>
+                <picture>
+                    <source srcset="images/Setgrain.jpg" loading="lazy" media="(max-width:500px)">
+                    <source srcset="images/Setgrain.jpg" loading="lazy" media="(max-width:1000px)">
+                    <img src="images/Setgrain.jpg" alt="Different kind of mobile phone" width="500" height="250">
+                    <p>Grains</p>
+                </picture>
         </section>
     </main>
     <footer>
@@ -84,6 +94,7 @@
     </footer>
 
     <script defer src="scripts/product.js"></script>
+    <script defer src="scripts/lazyloading.js"></script>
  
     
 </body>
